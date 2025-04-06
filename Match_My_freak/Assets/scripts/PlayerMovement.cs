@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     float horizontalInput;
-    float moveSpeed = 5f;
+    public float moveSpeed = 5f;
 
     bool isFacingRight = false; //starts as false cause the player spwans in facing left |
     Rigidbody2D rb;
