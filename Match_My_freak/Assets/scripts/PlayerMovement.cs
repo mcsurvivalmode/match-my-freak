@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    //[SerializeField] private float rotationSpeed;
+
       // Update is called once per frame
    void Start()
     {
@@ -43,6 +45,12 @@ public class PlayerMovement : MonoBehaviour
 
 
        }
+
+        //Rotation code for his bodayyyyy
+        //if (Input.GetButtonDown("Rotate"))
+        //{
+        //    tran
+        //}
            
     }
   
