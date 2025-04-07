@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     {
        horizontalInput = Input.GetAxis("Horizontal");
 
-       FlipSprite();
+       //FlipSprite();
 
        if(Input.GetButtonDown("Jump") && IsGrounded()) //makes player jump if space is pressed 
        {
@@ -72,19 +72,19 @@ public class PlayerMovement : MonoBehaviour
 
 
 //FLIPPING
-    void FlipSprite()
-    {
+    //void FlipSprite()
+    //{
     
 
-        if(isFacingRight && horizontalInput <0f || !isFacingRight && horizontalInput > 0f)
-        {
-            isFacingRight = !isFacingRight; //sets it so its the opposite of what is currently is 
-            Vector3 ls = transform.localScale;
-            ls.x *= -1f;
-            transform.localScale = ls; 
+        //if(isFacingRight && horizontalInput <0f || !isFacingRight && horizontalInput > 0f)
+        //{
+            //isFacingRight = !isFacingRight; //sets it so its the opposite of what is currently is 
+            //Vector3 ls = transform.localScale;
+            //ls.x *= -1f;
+            //transform.localScale = ls; 
 
-        }
-    }
+        //}
+    //}
 
    
 
