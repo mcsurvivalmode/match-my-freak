@@ -6330,6 +6330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: green_player
       objectReference: {fileID: 0}
+    - target: {fileID: 7270026529442097869, guid: 77b5bf6e90181d54889c5d8eedc2b107, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

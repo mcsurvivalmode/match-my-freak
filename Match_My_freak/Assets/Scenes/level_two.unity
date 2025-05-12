@@ -1973,6 +1973,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2300987141622921194, guid: 5f1f1ee0b50473a4199bc62539184b56, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6151060588833006367, guid: 5f1f1ee0b50473a4199bc62539184b56, type: 3}
       propertyPath: m_Name
       value: orange_player
