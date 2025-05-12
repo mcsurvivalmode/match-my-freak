@@ -1,43 +1,44 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class interaction : MonoBehaviour
+public class InteractionScript : MonoBehaviour
 {
+
     public UnityEvent enteredTrigger, exitedTrigger, interacted;
 
     private bool insideTrigger;
 
-
-    // Update is called once per frame
+   // Update is called once per frame
     void Update()
     {
         if (insideTrigger && Input.GetKeyDown(KeyCode.E))
         {
             interacted?.Invoke();
-
         }
-
     }
 
-    private void OnTriggerenter2D(Collider2D other)
+
+    private void OnTriggerEnter2D (Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag ("match"))
         {
             enteredTrigger.Invoke();
-            insideTrigger = true; 
+            insideTrigger = true;
         }
+
     }
 
-    private void OnTriggerexit2D(Collider2D other)
+
+    private void OnTriggerExit2D (Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag ("match"))
         {
             exitedTrigger.Invoke();
             insideTrigger = false;
         }
+
     }
+
 
 
 }
