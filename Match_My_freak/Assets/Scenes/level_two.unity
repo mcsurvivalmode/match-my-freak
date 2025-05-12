@@ -832,7 +832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99ee7008089bc9441820fe7fdd70bd95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   groundCheck: {fileID: 1526901598}
   groundLayer:
     serializedVersion: 2
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3ae0bc681c6f74698c0468d9fdc1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 5
+  rotationSpeed: 50
 --- !u!212 &342675559
 SpriteRenderer:
   m_ObjectHideFlags: 0
