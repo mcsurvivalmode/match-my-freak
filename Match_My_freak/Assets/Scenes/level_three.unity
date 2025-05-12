@@ -532,6 +532,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 140783771415169765, guid: cb1dc0bbdac20f34883fd503f7725fdc, type: 3}
   m_PrefabInstance: {fileID: 106909086}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &124234226 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3356749957104391925, guid: fcec444aea3489445bac20405774e90f, type: 3}
+  m_PrefabInstance: {fileID: 6866421281015805166}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fc4ae552c6c2c4ead418abcbc0b6c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &171683843
 GameObject:
   m_ObjectHideFlags: 0
@@ -6331,6 +6342,34 @@ PrefabInstance:
     - target: {fileID: 455799102403496035, guid: fcec444aea3489445bac20405774e90f, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 124234226}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ResetScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643957185092682994, guid: fcec444aea3489445bac20405774e90f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8006201182645215943, guid: fcec444aea3489445bac20405774e90f, type: 3}
       propertyPath: m_Pivot.x
