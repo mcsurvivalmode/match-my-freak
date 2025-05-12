@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/level_three.unity
     guid: bab368fc7ec35e944a509852a78ca83f
   - enabled: 1
+    path: Assets/Scenes/level_four.unity
+    guid: 4d4cb3f7da256d444aef72365614eef2
+  - enabled: 1
     path: Assets/Scenes/FinalLevel.unity
     guid: 76b48a3745d2472418d745afbe74820b
+  - enabled: 1
+    path: Assets/Scenes/WEDDING.unity
+    guid: 3279dccb318d7834abb2cd7d840cd469
   m_configObjects: {}
