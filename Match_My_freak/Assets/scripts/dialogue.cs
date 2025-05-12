@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class dialogue : MonoBehaviour
@@ -11,6 +12,8 @@ public class dialogue : MonoBehaviour
     public float textSpeed;
 
     private int index;
+
+    public int sceneBuildIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +35,7 @@ public class dialogue : MonoBehaviour
             {
                 StopAllCoroutines();
                 textComponent.text = lines[index];
+                SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
             }
 
         }

@@ -8462,9 +8462,13 @@ MonoBehaviour:
   - '???: Oh no, I''m so sorry'
   - '???: If it makes you feel any better, I think you still look pretty nice'
   - 'Baye: Oh, really?!'
-  - "???: Hey, there's a new caf\xE9 that just opened nearby"
+  - '???: Hey, there''s a new cafe that just opened up nearby'
   - '???: Would you like to check it out with me?'
   - 'Pava: I''m Pava by the way.'
+  - 'Baye: You know what...'
+  - 'Baye: I''d love to <3'
+  - 'Baye: I''m Baye.'
+  - 'Pava: Great! I''ll lead the way, Baye.'
   textSpeed: 0.03
 --- !u!1 &1462042196
 GameObject:
