@@ -8470,6 +8470,7 @@ MonoBehaviour:
   - 'Baye: I''m Baye.'
   - 'Pava: Great! I''ll lead the way, Baye.'
   textSpeed: 0.03
+  sceneBuildIndex: 6
 --- !u!1 &1462042196
 GameObject:
   m_ObjectHideFlags: 0

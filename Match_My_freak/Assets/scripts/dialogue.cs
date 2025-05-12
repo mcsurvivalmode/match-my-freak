@@ -35,7 +35,6 @@ public class dialogue : MonoBehaviour
             {
                 StopAllCoroutines();
                 textComponent.text = lines[index];
-                SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
             }
 
         }
@@ -68,6 +67,7 @@ public class dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
         }
     }
 
