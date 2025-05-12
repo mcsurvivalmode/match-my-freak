@@ -10,14 +10,19 @@ public class LevelChangeScript : MonoBehaviour
 
 
     //Switches scene to the selected scenes index number when trigger is entered by the player
-    private void OnTriggerEnter2D(Collider2D other)
+    public void ChangeScene()
     {
-        print("Trigger Entered");
-
-        if (other.tag == "Player")
-        {
-            print("Scene change to " + sceneBuildIndex);
-            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
-        }
+        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
     }
+
+
+    //THIS IS FOR WHEN THE PLAYER ENTERS A TRIGGER, JUST FOR FUTURE USE
+
+    //print("Trigger Entered");
+
+        //if (other.tag == "Player")
+        //{
+            //print("Scene change to " + sceneBuildIndex);
+            //SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+        //}
 }
